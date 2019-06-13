@@ -93,8 +93,6 @@ public class Atm implements AtmInterface{
     	savingsAccount.displayAccountTransaction();
     }
     
-     
-
     public static void main(String[] args) {
 
     	//create a customer saving account with 0 balance, 0 total withdrawals and Deposits
@@ -176,6 +174,7 @@ public class Atm implements AtmInterface{
                 
                 else { atm.withdraw(withdrawAmount);
                 atm.displayBalance();
+                
                 }
                 break;
             case 4:
